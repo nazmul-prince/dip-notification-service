@@ -1,0 +1,33 @@
+{
+  "type": "ROOT",
+  "expectedCount": 0,
+  "priority": 100,
+  "children": [
+    {
+      "type": "NID",
+      "expectedCount": 1,
+      "priority": 90,
+      "children":
+      [
+        {
+          "type": "ESAF",
+          "expectedCount": 12,
+          "priority": 80,
+          "children": []
+        },
+        {
+          "type": "PASSPORT",
+          "expectedCount": 3,
+          "priority": 80,
+          "children": []
+        },
+        {
+          "type": "DRIVINGLICENSE",
+          "expectedCount": 3,
+          "priority": 80,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

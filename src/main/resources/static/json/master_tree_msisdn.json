@@ -1,0 +1,63 @@
+{
+  "type": "MSISDN",
+  "expectedCount": 0,
+  "priority": 100,
+  "children": [
+    {
+      "type": "VEHICLEREGISTRATION",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    },
+    {
+      "type": "CDR",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": [
+        {
+          "type": "MOBILE_DEVICE_INFORMATION",
+          "expectedCount": 1,
+          "priority": 80,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "ESAF",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": [
+        {
+          "type": "NID",
+          "expectedCount": 1,
+          "priority": 80,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "SMS",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    },
+    {
+      "type": "LRL",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    },
+    {
+      "type": "DRIVINGLICENSE",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    },
+    {
+      "type": "MNP",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    }
+  ]
+}

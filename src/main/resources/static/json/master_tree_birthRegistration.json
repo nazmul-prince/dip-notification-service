@@ -1,0 +1,6 @@
+{
+  "type": "BIRTHREGISTRATION",
+  "expectedCount": 1,
+  "priority": 100,
+  "children": []
+}

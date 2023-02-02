@@ -1,0 +1,13 @@
+{
+  "type": "ROOT",
+  "expectedCount": 0,
+  "priority": 100,
+  "children": [
+    {
+      "type": "PSTN_ESAF",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "VEHICLEREGISTRATION",
+  "expectedCount": 1,
+  "priority": 100,
+  "children":
+  [
+    {
+      "type": "NID",
+      "expectedCount": 1,
+      "priority": 90,
+      "children":
+      [
+        {
+          "type": "ESAF",
+          "expectedCount": 12,
+          "priority": 80,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

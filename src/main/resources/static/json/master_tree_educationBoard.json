@@ -1,0 +1,14 @@
+{
+  "type": "ROOT",
+  "expectedCount": 0,
+  "priority": 100,
+  "children":
+  [
+    {
+      "type": "EDUCATION_BOARD",
+      "expectedCount": 1,
+      "priority": 90,
+      "children": []
+    }
+  ]
+}
